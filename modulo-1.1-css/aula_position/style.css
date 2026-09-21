@@ -1,0 +1,26 @@
+main {
+    width: 800px;
+    height: 800px;
+    background-color: brown;
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+}
+
+.primeira {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 180, 148);
+    position: absolute;
+    right: 0 ;
+    bottom: 0 ;
+}
+
+.segundo {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(180, 20, 148);
+    position: fixed;
+    top: 0 ;
+    right: 0 ;
+}

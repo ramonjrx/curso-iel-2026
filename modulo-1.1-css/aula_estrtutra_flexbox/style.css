@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner_global {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(164, 26, 26);
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner_main {
+    width: 80%;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+    gap: 20px;
+}
+
+aside {
+    width: 200px;
+    height: 100%;
+    background-color: rgb(69, 15, 50);
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(162, 254, 5);
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(108, 110, 182);
+}

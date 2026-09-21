@@ -1,0 +1,27 @@
+main{
+    width: 100%;
+    color: aliceblue;
+}
+h1 {
+    background-color: rgb(249, 141, 9);
+}
+.div-1 {
+
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    visibility: hidden;
+}
+.div-2 {
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(193, 249, 23);
+    display: inline-block;
+}
+.div-3 {
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(235, 13, 150);
+}

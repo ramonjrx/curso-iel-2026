@@ -1,0 +1,27 @@
+p{
+    color: antiquewhite !important;
+    background-color: aqua
+}
+
+#paragrafo {
+    color: aqua;
+    background-color: brown;
+}
+
+#paragrafo {
+    color: rgb(22, 103, 209);
+    background-color: rgba(141, 10, 10, 0.348);
+}
+
+.paragrafo {
+    color: rgb(198, 232, 9);
+    background-color: rgb(42, 165, 132);
+}
+
+p {
+    color: rgb(235, 136, 5);
+}
+
+p {
+    color: chartreuse;
+}

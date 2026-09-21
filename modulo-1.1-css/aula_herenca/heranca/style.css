@@ -1,0 +1,15 @@
+p {
+    color: red;
+
+}
+div p {
+    color: rgb(42, 199, 126);
+}
+
+.segunda_section > p {
+    color: bisque;
+}
+
+#primeira_section > p {
+    color: brown;
+}
