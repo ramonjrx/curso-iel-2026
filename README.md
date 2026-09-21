@@ -13,9 +13,9 @@ Como é uma formação Full Stack, este repositório vai crescer aos poucos com 
 
 ## 📂 Estrutura do Repositório
 *(Conforme o curso avançar, as pastas das aulas serão organizadas aqui)*
-- 📁 modulo-1-html`: Primeiros conceitos e marcação.
-- 📁 modulo-1.1-css`: Estilização das páginas.
-- 📁 git-aulas`: Práticas e comandos de versionamento.
+- `📁 modulo-1-html`: Primeiros conceitos e marcação.
+- `📁 modulo-1.1-css`: Estilização das páginas.
+- `📁 git-aulas`: Práticas e comandos de versionamento.
 ---
 
 ## 👨‍💻 Sobre o Autor
