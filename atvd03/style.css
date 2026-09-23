@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}
+
+#header {
+
+    width: 100%;
+    background-color: #800080;
+
+}
+#header h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+main {
+    flex: 1;
+}
+#banner {
+
+    width: 100%;
+    height: 180px;
+    background-color: #9932CC;
+
+
+}
+
+#descricao {
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#descricao h2 {
+    color:#9932CC ;
+    font-size: 20px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #9932CC;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#descricao p {
+    max-width: 800px;
+    color: #000000;
+    font-size: 14px;
+}
+
+#sessao-equipe {
+    text-align: center;
+    color: #9932CC;
+}
+#sessao-equipe h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #9932CC;
+    display: inline-block;
+    padding-bottom: 5px;
+
+}
+
+#conteiner-times {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px
+    ;
+}
+#times {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.times p {
+ margin-top: 5px;
+}
+
+.avatar-time {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.avatar-time img {
+    width: 100%;
+    height: 100%;
+}
+#direitos {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #800080;
+    color: white;
+}

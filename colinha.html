@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações ocultas da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Cola - Estrutura HTML5</title>
+    <meta name="description" content="Guia rápido de estrutura HTML5 com divs e listas.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    
+    <!-- CABEÇALHO GLOBAL -->
+    <header>
+        <h1>Logo do Meu Site</h1>
+        <nav>
+            <!-- UL (Unordered List): Lista NÃO ordenada. Perfeita para menus e itens onde a ordem não importa (gera bolinhas). -->
+            <ul>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#tutoriais">Tutoriais</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL (Mãe do conteúdo exclusivo desta página) -->
+    <main>
+        
+        <!-- SEÇÃO 1: Focada em um tema específico -->
+        <section id="tutoriais" class="fundo-escuro">
+            
+            <!-- DIV COMO CONTAINER: Usada aqui para impedir que o texto encoste nas laterais da tela. O CSS centralizaria essa caixa. -->
+            <div class="container-centralizado">
+                
+                <h2>Nossos Tutoriais</h2>
+                
+                <article>
+                    <h3>Como preparar um café perfeito</h3>
+                    
+                    <!-- OL (Ordered List): Lista ORDENADA. Usada para passo a passo, tutoriais ou rankings (gera números: 1, 2, 3...). -->
+                    <ol>
+                        <li>Ferva a água até 90 graus.</li>
+                        <li>Posicione o filtro de papel e escalde-o.</li>
+                        <li>Adicione o pó de café e despeje a água lentamente.</li>
+                    </ol>
+
+                    <p>E para acompanhar, veja o que você vai precisar:</p>
+
+                    <!-- UL (Unordered List): Lista NÃO ordenada. Usada para listar ingredientes ou itens soltos. -->
+                    <ul>
+                        <li>Xícara de cerâmica</li>
+                        <li>Biscoito amanteigado</li>
+                    </ul>
+
+                    <!-- DIV COMO AGRUPAMENTO: Usada aqui para juntar os botões. No CSS, você pode alinhar essa caixa inteira à direita. -->
+                    <div class="grupo-de-botoes">
+                        <button>Salvar Tutorial</button>
+                        <button>Compartilhar</button>
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ GLOBAL -->
+    <footer>
+        <!-- DIV PARA LAYOUT: Usada aqui para que o CSS coloque os direitos autorais de um lado e os links do outro (display: flex). -->
+        <div class="rodape-layout-colunas">
+            <p>&copy; 2026 Nome da Empresa. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="/privacidade">Política de Privacidade</a></li>
+                <li><a href="/contato">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
